@@ -1,0 +1,417 @@
+{
+	"info": {
+		"_postman_id": "996d740e-c589-4514-879f-86fbb0b2df87",
+		"name": "EventType",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8989/api/eventType/all",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/all",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"all"
+					]
+				},
+				"description": "get all EventType"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/11",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"11"
+					]
+				},
+				"description": "get one EventType by id"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/aaa",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/aaa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"aaa"
+					]
+				},
+				"description": "get EventType by id,  FAILED id must be a number"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/101",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/101",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"101"
+					]
+				},
+				"description": " get one EventType by id, FAILED id does not exist"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/11 ",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/11",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"11"
+					]
+				},
+				"description": "Delete eventType by id - X eventType has foreign key constraint"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/aa",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/aa",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"aa"
+					]
+				},
+				"description": "Delete eventType by id - X, invalid row number"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/16",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/16",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"16"
+					]
+				},
+				"description": "EventType delete by id - OK"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/1001",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/1001",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						"1001"
+					]
+				},
+				"description": "delete eventType - X id does not existing"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"jhkjkh\",\n\t\"description\": \"jhgjkkh\",\n\t\"defaultUrgency\": 20\n\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						""
+					]
+				},
+				"description": "add new eventType"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"name\": \"Lost electricity\",\n\t\"description\": \"Electricity system does not work properly, no electric in some apartments\",\n\t\"defaultUrgency\": 10\n\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						""
+					]
+				},
+				"description": "edit existing eventType - OK"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8989/api/eventType/",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "Accept",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\n\t\"description\": \"Electricity system does not work properly, no electric in some apartments\",\n\t\"defaultUrgency\": 10\n\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8989/api/eventType/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8989",
+					"path": [
+						"api",
+						"eventType",
+						""
+					]
+				},
+				"description": "edit eventType - X (name missing)"
+			},
+			"response": []
+		}
+	]
+}
